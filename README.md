@@ -19,4 +19,27 @@ This project sets up a Linux web server using Apache, MySQL, and PHP — just li
 Great for beginners in cloud engineering who want to build cloud-ready systems with zero cost.
 
 ## 📸 Screenshots
-[insert screenshots]
+
+### Apache2 Default Page proof
+
+![Apache2 Default Page proof](Apache2-Default-Page.png)
+
+### PHP Information Page proof
+
+![PHP Information Page proof](PHP-Info.png)
+
+### VS Code - Remote SSH Extension for VM
+
+![Remote SSH Extension](VSCode-Remote-SSH-Extension.png)
+
+### VS Code - SSH file
+
+![SSH file](VSCode-SSH.png)
+
+### Running scripts from VS Code SSH'd into Linux VM
+
+![Running scripts](Running-scripts.png)
+
+### Granted user sudo rights in order to install OpenSSH server
+
+![Amended root](Amended-root.png)
