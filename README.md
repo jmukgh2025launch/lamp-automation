@@ -43,3 +43,51 @@ Great for beginners in cloud engineering who want to build cloud-ready systems w
 ### Granted user sudo rights in order to install OpenSSH server
 
 ![Amended root](Amended-root.png)
+
+# 🖥 LAMP Stack Automation – Project Steps Recap
+
+## 1. Set Up Ubuntu VM →
+
+-Install Ubuntu 22.04 in VirtualBox and log in.
+
+## 2. (Optional) Enable SSH & Connect with VS Code →
+
+-Install OpenSSH, get VM IP, connect via Remote-SSH.
+
+## 3. Create Project Structure →
+
+lamp-automation/setup and docs folders.
+
+## 4. Write Bash Scripts →
+
+-Update system
+
+-Install Apache
+
+-Install MySQL
+
+-Install PHP
+
+-Configure firewall
+
+-Check service statuses
+
+## 5. Make Scripts Executable →
+
+chmod +x setup/*.sh.
+
+## 6. Run Scripts in Order →
+
+-Execute from 01_update_system.sh through 06_check_status.sh.
+
+## 7. Test Web Server →
+
+-Visit http://localhost in VM browser to see PHP info page.
+
+## 8. Push to GitHub →
+
+-Initialize Git, commit files, add remote, push.
+
+## 9. Write README.md →
+
+-Overview, instructions, screenshots.
