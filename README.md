@@ -91,3 +91,30 @@ chmod +x setup/*.sh.
 ## 9. Write README.md →
 
 -Overview, instructions, screenshots.
+
+# 🔧 Issues & Solutions Recap
+
+## No root login option in Ubuntu
+➡ Booted into GRUB root shell → added my user to sudo group.
+
+## Sudo not working at first
+➡ Fixed by adding user to sudo group in GRUB recovery.
+
+## GRUB not showing when holding Shift
+➡ Restarting (not power off) + holding Shift worked → got into GRUB editor.
+
+## Couldn’t SSH to VM (wrong IP 10.0.2.15)
+➡ Solved by setting up VirtualBox Port Forwarding (Host 2222 → Guest 22) + ~/.ssh/config.
+
+## General LAMP setup checks
+➡ Verified Apache, PHP, MySQL step by step until everything worked.
+
+# ✅ End result:
+
+-Fully working LAMP stack in a VM.
+
+-Remote SSH access via VS Code.
+
+-Documented setup + screenshots → published on GitHub.
+
+-Encountered and solved real-world sysadmin issues (sudo, GRUB, networking, SSH).
